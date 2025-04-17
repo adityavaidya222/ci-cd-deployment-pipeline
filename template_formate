@@ -1,0 +1,19 @@
+terraform/
+├── clients/
+│   └── client_a/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── terraform.tfvars
+└── modules/
+    ├── dms/
+    │   ├── main.tf
+    │   └── variables.tf
+    ├── glue/
+    │   ├── main.tf
+    │   └── variables.tf
+    ├── redshift/
+    │   ├── main.tf
+    │   └── variables.tf
+    └── lambda/
+        ├── main.tf
+        └── variables.tf
